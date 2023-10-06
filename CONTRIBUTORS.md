@@ -6,6 +6,6 @@ This file lists the contributors who have completed the frontend challenges from
 | Name | GitHub Profile | Challenge |
 | --- | --- | --- |
 | John Doe | [johndoe] | Profile card component |
-| John Doe | [Shiba-Tatsuya](https://github.com/Shiba-Tatsuya) | Profile card component |
+| Shiba Tatsuya | [Shiba-Tatsuya](https://github.com/Shiba-Tatsuya) | Advice generator app |
 
 If you want to add your name to this list, please follow the [instructions](./README.md#how-to-participate) on how to participate in this project.
