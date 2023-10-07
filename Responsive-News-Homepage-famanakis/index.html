@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container flex-col">
+      <header>
+        <img class="header-logo" src="src/assets/images/logo.svg" alt="logo">
+        <button type="button" id="nav-mobile-btn" class="nav-mobile-btn" ><img class="hamburger" src="src/assets/images/icon-menu.svg" alt="open menu hamburger"></button>
+        <nav id="nav-desktop" class="nav-desktop">
+          <button type="button" id="close-menu-btn" class="close-menu-btn"><img src="src/assets/images/icon-menu-close.svg" alt="x to close menu"></button>
+          <a href="" target="_blank">Home</a>
+          <a href="" target="_blank">New</a>
+          <a href="" target="_blank">Popular</a>
+          <a href="" target="_blank">Trending</a>
+          <a href="" target="_blank">Categories</a>
+        </nav>
+      </header>
+      <main class="top-section"> 
+        <section class="hero">
+          <div class="hero-image"></div>
+          <div class="desktop-hero-flex-row">
+            <div>
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="desktop-hero-flex-col">
+              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?</p>
+              <button type="button" class="btn-read-more" id="btn-read-more">Read more</button>
+            </div>
+          </div>
+        </section>
+        <section class="new-content">
+          <h2>New</h2>
+          <h3> Hydrogen VS Electric Cars</h3>
+          <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr />
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?
+          </p>
+          <hr />
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+      </main>
+      <div class="articles" role="complementary">
+        <div class="flex-row">
+          <img class="article-img" src="src/assets/images/image-retro-pcs.jpg" alt="retro computer">
+          <div class="flex-col">
+            <h2>01</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <img class="article-img" src="src/assets/images/image-top-laptops.jpg" alt="gaming keyboard">
+          <div class="flex-col">
+            <h2>02</h2>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <img class="article-img" src="src/assets/images/image-gaming-growth.jpg" alt="game controller in a person's hand">
+          <div class="flex-col">
+            <h2>03</h2>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+        <footer>
+          <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p> 
+          <p>Coded by <a href="#">Farrah Mamanakis</a>.</p>
+        </footer>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
+</html>
