@@ -9,5 +9,7 @@ This file lists the contributors who have completed the frontend challenges from
 | Vaibhav Kanthi | [https://github.com/vaibhavk1714] | Product preview card component |
 | Farrah Mamanakis | [https://github.com/famanakis] | News Homepage using CSS |
 | Bishwo Bista | [https://github.com/bishwobista] | Result Summary Component |
+| MaySi | [MaySi11](https://github.com/MaySi11) | QR code component |
+
 
 If you want to add your name to this list, please follow the [instructions](./README.md#how-to-participate) on how to participate in this project.

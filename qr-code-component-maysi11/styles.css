@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: hsl(212, 45%, 89%);
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.imgBox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.contentBox {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  text-align: center;
+}
+
+.heading {
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.qr {
+  height: 300px;
+  width: auto;
+}
