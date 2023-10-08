@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap');
+html {
+  background-color: #0d1a2d;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-container {
+  background-color: #15273f;
+  padding: 1.5rem;
+  color: #fff;
+  top: 6rem;
+  position: absolute;
+  border-radius: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: #04fbf9;
+  text-decoration: none;
+}
+
+.card-content {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 21px;
+  color: #B3E5FC;
+}
+
+.card-image {
+  height: 20.438rem;
+  width: 20.438rem;
+  border-radius: 10px;
+  margin-bottom: 24px;
+
+  /* opacity: 1;
+  display: block;
+  /* width: 100%; */
+  /* height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; */
+}
+
+.card-image-link:hover {
+  background-color: #04fbf9;
+}
+
+.avatar {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.ethereum {
+  color: #04fbf9;
+}
+
+.author-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.author-link:hover {
+  color: #04fbf9;
+  text-decoration: none;
+}
+
+.rate-and-days {
+  display: flex;
+}
+
+.days-left {
+  flex-grow: 1;
+  text-align: right;
+}
