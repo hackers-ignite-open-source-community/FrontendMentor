@@ -13,10 +13,11 @@ html {
   background-color: #15273f;
   padding: 1.5rem;
   color: #fff;
-  top: 5rem;
+  top: 4.5rem;
   position: absolute;
   border-radius: 20px;
   font-family: 'Josefin Sans', sans-serif;
+  max-width: 378px;
 }
 
 .title-link {
@@ -68,6 +69,10 @@ html {
 }
 
 .icon {
+  margin-bottom: 5px;
+}
+
+.overlay-icon {
   color: white;
   font-size: 100px;
   position: absolute;
