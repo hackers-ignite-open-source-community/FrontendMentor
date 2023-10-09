@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap');
+
 html {
   background-color: #0d1a2d;
 }
-
-/* * {
-  padding-right: 0;
-  margin-right: 0;
-} */
 
 .card-title {
   color: #fff;
 }
 
 .card-container {
+  margin-right: 3rem;
   background-color: #15273f;
   padding: 1.5rem;
   color: #fff;
-  top: 4rem;
+  top: 5rem;
   position: absolute;
   border-radius: 20px;
   font-family: 'Josefin Sans', sans-serif;
