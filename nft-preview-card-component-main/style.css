@@ -3,6 +3,11 @@ html {
   background-color: #0d1a2d;
 }
 
+/* * {
+  padding-right: 0;
+  margin-right: 0;
+} */
+
 .card-title {
   color: #fff;
 }
@@ -11,7 +16,7 @@ html {
   background-color: #15273f;
   padding: 1.5rem;
   color: #fff;
-  top: 6rem;
+  top: 4rem;
   position: absolute;
   border-radius: 20px;
   font-family: 'Josefin Sans', sans-serif;
@@ -28,6 +33,7 @@ html {
 }
 
 .card-content {
+  margin-top: 24px;
   margin-bottom: 1rem;
   font-weight: 300;
   font-size: 21px;
@@ -38,14 +44,45 @@ html {
   height: 20.438rem;
   width: 20.438rem;
   border-radius: 10px;
-  margin-bottom: 24px;
+  
+}
 
-  /* opacity: 1;
-  display: block;
-  /* width: 100%; */
-  /* height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden; */
+.container-image-overlay {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #04fbf9;
+}
+
+.container-image-overlay:hover .overlay {
+  opacity: .5;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover-image:hover {
+  color: #fff;
 }
 
 .card-image-link:hover {
