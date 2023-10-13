@@ -1,15 +1,41 @@
-.rating-card {
+.rating-container {
   // background-color: hsl(213, 19%, 18%);
+  // background-image: linear-gradient(hsl(213, 19%, 18%)  , hsl(216, 12%, 54%));
   // background-image: linear-gradient(hsl(216, 12%, 54%)  , hsl(213, 19%, 18%));
-  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 54%));
-  width: 720px;
+  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+  // background-image: linear-gradient(hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+  width: 412px;
   margin-left: 400px;
-  // top: 200px;
   margin-top: 200px;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 30px;
 }
 
-// - White: hsl(0, 0%, 100%)
-// - Light Grey: hsl(217, 12%, 63%)
-// - Medium Grey: hsl(216, 12%, 54%)
-// - Dark Blue: hsl(213, 19%, 18%)
-// - Very Dark Blue: hsl(216, 12%, 8%)
+.thank-you-card {
+  padding: 40px;
+  // text-align: center;
+}
+
+.header-image {
+  padding: 14px;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 30px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.card-content {
+  padding-top: 30px;
+}
+
+.subtitle {
+  color: hsl(216, 12%, 54%);
+}
+
+.submitButton {
+  width: 100%;
+  color: #fff;
+  padding: 11px;
+  background-color: hsl(25, 97%, 53%);
+  border: 1px solid hsl(25, 97%, 53%);
+  border-radius: 40px;
+}
