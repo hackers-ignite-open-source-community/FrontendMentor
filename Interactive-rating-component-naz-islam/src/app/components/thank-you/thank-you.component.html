@@ -1,7 +1,18 @@
-<div class="rating-card">
-    <main>
-      <article>{{ CONTENT_THANK_YOU.ratingSelected }}</article>
-      <h2>{{ CONTENT_THANK_YOU.title }}</h2>
-      <p>{{ CONTENT_THANK_YOU.subTitle }}</p>
-    </main>
-  </div>
+<div class="thank-you-container">
+  <main class="thank-you-card">
+    <section class="thank-you-image">
+      <img src="../../../assets/illustration-thank-you.svg" alt="">
+    </section>
+    <div class="ff">
+      <span class="rating-section">
+       {{ CONTENT_THANK_YOU.ratingSelected }}
+      </span>
+
+    </div>
+    <section>
+      
+      <h2 class="title">{{ CONTENT_THANK_YOU.title }}</h2>
+      <p class="subtitle">{{ CONTENT_THANK_YOU.subTitle }}</p>
+    </section>
+  </main>
+</div>
