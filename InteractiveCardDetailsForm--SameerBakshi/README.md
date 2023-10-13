@@ -1,5 +1,4 @@
 # Frontend Mentor - Interactive card details form solution
-![Screenshot](./design/desktop-preview.jpg)
 This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). 
 
 ## Table of contents
