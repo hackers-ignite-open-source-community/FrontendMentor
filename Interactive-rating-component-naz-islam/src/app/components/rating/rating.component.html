@@ -1,0 +1,32 @@
+<div class="rating-card">
+  <header>
+    icon:Star
+  </header>
+  <main>
+    <h2>{{ CONTENT_RATING.title }}</h2>
+    <p>{{ CONTENT_RATING.subTitle }}</p>
+    <ul>
+      <li>
+        <input type="radio" id="ratingOne" name="rating" [value]="CONTENT_RATING.ratingOne">
+        <label for="ratingOne">1</label>
+      </li>
+      <li>
+        <input type="radio" id="ratingTwo" name="rating" [value]="CONTENT_RATING.ratingTwo">
+        <label for="ratingTwo">2</label>
+      </li>
+      <li>
+        <input type="radio" id="ratingThree" name="rating" [value]="CONTENT_RATING.ratingThree">
+        <label for="ratingThree">3</label>
+      </li>
+      <li>
+        <input type="radio" id="ratingFour" name="rating" [value]="CONTENT_RATING.ratingFour">
+        <label for="ratingFour">4</label>
+      </li>
+      <li>
+        <input type="radio" id="ratingFive" name="rating" [value]="CONTENT_RATING.ratingFive">
+        <label for="ratingFive">5</label>
+      </li>
+    </ul>
+    <button (click)="onSubmit()">{{ CONTENT_RATING.buttonText }}</button>
+  </main>
+</div>
