@@ -1,9 +1,5 @@
 .rating-container {
-  // background-color: hsl(213, 19%, 18%);
-  // background-image: linear-gradient(hsl(213, 19%, 18%)  , hsl(216, 12%, 54%));
-  // background-image: linear-gradient(hsl(216, 12%, 54%)  , hsl(213, 19%, 18%));
   background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
-  // background-image: linear-gradient(hsl(216, 12%, 8%), hsl(213, 19%, 18%));
   width: 412px;
   margin-left: 400px;
   margin-top: 200px;
@@ -13,7 +9,6 @@
 
 .thank-you-card {
   padding: 40px;
-  // text-align: center;
 }
 
 .header-image {
@@ -60,21 +55,24 @@ input {
   width: 0;
 }
 
-// input[type=radio]:hover{
-//   cursor: pointer;
-// }
 .ratingOption:hover{
   background-color: hsl(216, 12%, 54%);
   color: hsl(0, 0%, 100%);
 }
 
+.ratingOption-a:hover{
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+.ratingOption-selected {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
 label {
   cursor: pointer;
 
-}
-
-label:hover {
-  // color: #fff;
 }
 
 .ratingOption-a {

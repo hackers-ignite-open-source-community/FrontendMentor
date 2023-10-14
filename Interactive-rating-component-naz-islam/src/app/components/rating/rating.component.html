@@ -8,19 +8,19 @@
       <p class="subtitle">{{ CONTENT_RATING.subTitle }}</p>
       <form class="ratingForm">
           <input type="radio" [(ngModel)]="rating" id="ratingOne" name="rating" [value]="CONTENT_RATING.ratingOne">
-          <button class="ratingOption-a"><label for="ratingOne">1</label></button>
+          <button class="ratingOption-a" [ngClass]="{'ratingOption-selected': rating == '1'}"><label for="ratingOne">1</label></button>
         
           <input type="radio" [(ngModel)]="rating" id="ratingTwo" name="rating" [value]="CONTENT_RATING.ratingTwo">
-          <button class="ratingOption"><label for="ratingTwo">2</label></button>
+          <button class="ratingOption" [ngClass]="{'ratingOption-selected': rating == '2'}"><label for="ratingTwo">2</label></button>
         
           <input type="radio" [(ngModel)]="rating" id="ratingThree" name="rating" [value]="CONTENT_RATING.ratingThree">
-          <button class="ratingOption"><label for="ratingThree">3</label></button>
+          <button class="ratingOption" [ngClass]="{'ratingOption-selected': rating == '3'}"><label for="ratingThree">3</label></button>
         
           <input type="radio" [(ngModel)]="rating" id="ratingFour" name="rating" [value]="CONTENT_RATING.ratingFour">
-          <button class="ratingOption"><label for="ratingFour">4</label></button>
+          <button class="ratingOption" [ngClass]="{'ratingOption-selected': rating == '4'}"><label for="ratingFour">4</label></button>
         
           <input type="radio" [(ngModel)]="rating" id="ratingFive" name="rating" [value]="CONTENT_RATING.ratingFive">
-          <button class="ratingOption"><label for="ratingFive">5</label></button>
+          <button class="ratingOption" [ngClass]="{'ratingOption-selected': rating == '5'}"><label for="ratingFive">5</label></button>
       </form>
       <button class="submitButton" (click)="onSubmit()">{{ CONTENT_RATING.buttonText }}</button>
     </main>
