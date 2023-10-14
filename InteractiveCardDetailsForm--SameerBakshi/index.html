@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <section class="cards">
+      <div class="card-front">
+        <div class="circles">
+          <div class="circle-fill"></div>
+          <div class="small-circle"></div>
+        </div>
+
+        <div class="info">
+          <p class="card-number">XXXX XXXX XXXX XXXX</p>
+          <div class="holder-info">
+            <p class="name">sameer bakshi</p>
+            <div class="date">
+              <p class="mm">00</p>
+              /
+              <p class="yy">00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-back">
+        <p class="card-cvc">000</p>
+      </div>
+    </section>
+
+    <section class="form">
+      <form action="" class="user-form">
+        <div class="form-container">
+          <label for="number">card number</label>
+          <input
+            type="text"
+            maxlength="19"
+            id="creditCardNumber"
+            placeholder="XXXX XXXX XXXX XXXX"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="form-container">
+          <label for="name">cardholder name</label>
+          <input type="text" id="holder-name" placeholder="Sameer Bakshi" />
+          <div class="error"></div>
+        </div>
+        <div class="form-container small-inputs">
+          <div class="expiry-date">
+            <label for="date">exp. date (mm/yy)</label>
+            <input type="text" maxlength="2" id="MM" placeholder="MM" />
+            <input type="text" maxlength="2" id="YY" placeholder="YY" />
+            <div class="error"></div>
+          </div>
+          <div class="cvc">
+            <label for="cvc">cvc</label>
+            <input type="text" maxlength="3" id="CVC" placeholder="000" />
+            <div class="error"></div>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-container">
+          <input type="submit" value="Confirm" class="btn" />
+        </div>
+      </form>
+
+      <!-- Completed State -->
+      <div class="completed hidden">
+        <img src="./images/icon-complete.svg" alt="Complete icon" />
+        <p class="completed-text">thank you!</p>
+        <p class="completed-subtext">We've added your card details</p>
+        <input type="submit" value="Continue" class="continue-btn" />
+      </div>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
