@@ -1,0 +1,94 @@
+.rating-container {
+  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+  width: 412px;
+  margin-left: 400px;
+  margin-top: 200px;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 30px;
+}
+
+.thank-you-card {
+  padding: 40px;
+}
+
+.header-image {
+  padding: 14px;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 30px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.card-content {
+  padding-top: 30px;
+}
+
+.subtitle {
+  color: hsl(216, 12%, 54%);
+}
+
+.submitButton {
+  width: 100%;
+  color: #fff;
+  padding: 11px;
+  background-color: hsl(25, 97%, 53%);
+  border: 1px solid hsl(25, 97%, 53%);
+  border-radius: 40px;
+}
+
+.submitButton:hover {
+  // width: 100%;
+  color: hsl(25, 97%, 53%);
+  padding: 11px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 40px;
+}
+
+.ratingForm {
+  padding-bottom: 30px;
+  
+}
+
+input {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.ratingOption:hover{
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+.ratingOption-a:hover{
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+.ratingOption-selected {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
+label {
+  cursor: pointer;
+
+}
+
+.ratingOption-a {
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 43px;
+  padding: 12px 21px;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+
+}
+
+.ratingOption {
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 43px;
+  padding: 12px 21px;
+  color: hsl(217, 12%, 63%);
+  margin-left: 15px;
+  background-color: hsl(213, 19%, 18%);
+}
