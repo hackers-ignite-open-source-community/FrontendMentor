@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+body {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100vh;
+}
+
+.cards {
+  position: relative;
+  background-image: url(./images/bg-main-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-front {
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 20%;
+  right: -30%;
+  width: 375px;
+  height: auto;
+  padding: 5%;
+  border-radius: 10px;
+  background: url(./images/bg-card-front.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.circles {
+  display: flex;
+  align-items: center;
+}
+.circle-fill {
+  background-color: hsl(0, 0%, 100%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.small-circle {
+  border: 1px solid hsl(0, 0%, 100%);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.card-number {
+  margin-top: 20%;
+  letter-spacing: 0.3em;
+}
+.holder-info {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 5%;
+  font-size: 12px;
+}
+.holder-info .date {
+  display: flex;
+}
+.card-back {
+  position: relative;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  bottom: 10%;
+  right: -45%;
+  width: 375px;
+  height: 230px;
+  padding: 5%;
+  border-radius: 10px;
+  background: url(./images/bg-card-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-back p {
+  position: absolute;
+  top: 44%;
+  right: 7%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  padding: 3% 0;
+}
+form label {
+  text-transform: uppercase;
+  display: block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 2% 0;
+}
+form input {
+  width: 100%;
+  border: 1px solid hsl(270, 3%, 87%);
+  padding: 3%;
+  border-radius: 10px;
+}
+form input:focus {
+  outline: none;
+}
+.small-inputs {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+}
+.small-inputs > .expiry-date > input {
+  width: 48%;
+}
+.small-inputs > .expiry-date > input,
+.cvc > input {
+  padding: 5% 7%;
+}
+.form-container .btn {
+  background-color: hsl(278, 68%, 11%);
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+
+.completed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+.completed img{
+  padding: 10% 0;
+  width: 30%;
+}
+.completed .completed-text{
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.completed .completed-subtext{
+  padding: 5% 0;
+  color: hsl(270, 4%, 70%)
+}
+.completed .continue-btn{
+  width: 100%;
+  background-color: hsl(278, 68%, 11%);
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+
+.error {
+  color: hsl(0, 100%, 66%);
+}
+.field-error {
+  border: 2px solid hsl(0, 100%, 66%);
+}
+.success {
+  border: 2px solid hsl(130, 61%, 71%);
+}
+.hidden {
+  display: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    grid-template-columns: 100%;
+  }
+  .cards {
+    height: 40vh;
+  }
+  .card-front {
+    top: 35%;
+    left: 10%;
+    width: 420px;
+    z-index: 20;
+  }
+  .card-back {
+    top: 10%;
+    right: 20%;
+    width: 420px;
+    height: 70%;
+  }
+  .card-back p {
+    right: 10%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .card-front,
+  .card-back {
+    width: 385px;
+  }
+  .card-front {
+    top: 45%;
+  }
+  .card-back {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-front,
+  .card-back {
+    width: 350px;
+    font-size: 12px;
+  }
+  .card-front {
+    top: 50%;
+    left: 5%;
+  }
+  .card-back {
+    right: 5%;
+  }
+  .form {
+    padding: 2%;
+  }
+  .small-inputs > .expiry-date > input {
+    width: 35%;
+  }
+  .form label {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-front,
+  .card-back {
+    width: 250px;
+  }
+  .card-back {
+    height: 150px;
+  }
+  .form label {
+    font-size: 10px;
+  }
+}
