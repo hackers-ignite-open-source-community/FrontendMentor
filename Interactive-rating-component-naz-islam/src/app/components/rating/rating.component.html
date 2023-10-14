@@ -6,28 +6,22 @@
     <main class="card-content">
       <h2 class="title">{{ CONTENT_RATING.title }}</h2>
       <p class="subtitle">{{ CONTENT_RATING.subTitle }}</p>
-      <ul>
-        <li>
-          <input type="radio" id="ratingOne" name="rating" [value]="CONTENT_RATING.ratingOne">
-          <label for="ratingOne">1</label>
-        </li>
-        <li>
-          <input type="radio" id="ratingTwo" name="rating" [value]="CONTENT_RATING.ratingTwo">
-          <label for="ratingTwo">2</label>
-        </li>
-        <li>
-          <input type="radio" id="ratingThree" name="rating" [value]="CONTENT_RATING.ratingThree">
-          <label for="ratingThree">3</label>
-        </li>
-        <li>
-          <input type="radio" id="ratingFour" name="rating" [value]="CONTENT_RATING.ratingFour">
-          <label for="ratingFour">4</label>
-        </li>
-        <li>
-          <input type="radio" id="ratingFive" name="rating" [value]="CONTENT_RATING.ratingFive">
-          <label for="ratingFive">5</label>
-        </li>
-      </ul>
+      <form class="ratingForm">
+          <input type="radio" [(ngModel)]="rating" id="ratingOne" name="rating" [value]="CONTENT_RATING.ratingOne">
+          <button class="ratingOption-a"><label for="ratingOne">1</label></button>
+        
+          <input type="radio" [(ngModel)]="rating" id="ratingTwo" name="rating" [value]="CONTENT_RATING.ratingTwo">
+          <button class="ratingOption"><label for="ratingTwo">2</label></button>
+        
+          <input type="radio" [(ngModel)]="rating" id="ratingThree" name="rating" [value]="CONTENT_RATING.ratingThree">
+          <button class="ratingOption"><label for="ratingThree">3</label></button>
+        
+          <input type="radio" [(ngModel)]="rating" id="ratingFour" name="rating" [value]="CONTENT_RATING.ratingFour">
+          <button class="ratingOption"><label for="ratingFour">4</label></button>
+        
+          <input type="radio" [(ngModel)]="rating" id="ratingFive" name="rating" [value]="CONTENT_RATING.ratingFive">
+          <button class="ratingOption"><label for="ratingFive">5</label></button>
+      </form>
       <button class="submitButton" (click)="onSubmit()">{{ CONTENT_RATING.buttonText }}</button>
     </main>
   </main>

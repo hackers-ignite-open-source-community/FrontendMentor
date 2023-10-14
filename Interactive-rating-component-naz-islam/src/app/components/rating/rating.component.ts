@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./rating.component.scss']
 })
 export class RatingComponent {
+
+  public rating: string = '';
   
   constructor(
     private router: Router
@@ -26,7 +28,8 @@ export class RatingComponent {
   }
 
   public onSubmit() {
-    this.router.navigate(['thank-you']);
+    console.log('--> rating', this.rating);
+    this.router.navigate(['thank-you', this.rating]);
   }
 
 }
