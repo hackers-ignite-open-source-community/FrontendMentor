@@ -40,6 +40,15 @@
   border-radius: 40px;
 }
 
+.submitButton:hover {
+  // width: 100%;
+  color: hsl(25, 97%, 53%);
+  padding: 11px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 40px;
+}
+
 .ratingForm {
   padding-bottom: 30px;
   
