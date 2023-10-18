@@ -14,6 +14,8 @@ This file lists the contributors who have completed the frontend challenges from
 | Ajay Bairwa | [bairwa25](https://github.com/bairwa25) | QR code component |
 | Sameer Bakshi | [samx03](https://github.com/samx03) | Interactive Card Details Form |
 | Naz Islam | [nazislam](https://github.com/nazislam) | Interactive Rating Component |
+| Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Newsletter sign-up form with success message |
+
 
 
 If you want to add your name to this list, please follow the [instructions](./README.md#how-to-participate) on how to participate in this project.
