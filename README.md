@@ -19,6 +19,10 @@ To contribute to this repo, you need to follow these steps:
 - Push your changes to your fork and create a pull request to the main branch of this repo. Make sure to add a descriptive title and a screenshot of your solution to the pull request.
 - Wait for a review from the maintainer or other contributors. If your pull request is approved, it will be merged to the main branch. If your pull request needs some changes, you will get feedback on how to improve it.
 
+### Video Demo
+[![Watch the video](https://i9.ytimg.com/vi/0qfnfr4LRyQ/mq2.jpg?sqp=CLiZwKkG&rs=AOn4CLDe_P4PY_bwFz3ztS5fRr8hE5FmvA)](https://youtu.be/0qfnfr4LRyQ)
+
+
 ## Challenges
 
 You can head over to [Frontend Mentors](https://www.frontendmentor.io/challenges) for list of challenges that you can choose from. Each challenge has a zip folder you can download from that contains the starter files and the design files. You can also find a README file for each challenge that describes the requirements and the expected outcome.
