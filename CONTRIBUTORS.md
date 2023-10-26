@@ -17,6 +17,7 @@ This file lists the contributors who have completed the frontend challenges from
 | Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Newsletter sign-up form with success message |
 | Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Order summary component |
 | Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Stats Preview Card Component |
+| Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Testimonials Grid Section |
 
 
 
