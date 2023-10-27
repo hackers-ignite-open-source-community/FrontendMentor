@@ -18,6 +18,7 @@ This file lists the contributors who have completed the frontend challenges from
 | Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Order summary component |
 | Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Stats Preview Card Component |
 | Adufe Obanijesu | [obanijesu](https://github.com/Adufe-Obanijesu) | Testimonials Grid Section |
+| Victor Wariboko-West | [VictorWest](https://github.com/VictorWest) | Huddle Landing Page |
 
 
 
