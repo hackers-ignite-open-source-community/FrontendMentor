@@ -21,6 +21,6 @@ This file lists the contributors who have completed the frontend challenges from
 | Victor Wariboko-West | [VictorWest](https://github.com/VictorWest) | Huddle Landing Page |
 | Victor Wariboko-West | [VictorWest](https://github.com/VictorWest) | Launch Countdown |
 | Victor Wariboko-West | [VictorWest](https://github.com/VictorWest) | Result Summary |
-
+| Victor Wariboko-West | [VictorWest](https://github.com/VictorWest) | Stats Preview Card Component |
 
 If you want to add your name to this list, please follow the [instructions](./README.md#how-to-participate) on how to participate in this project.
