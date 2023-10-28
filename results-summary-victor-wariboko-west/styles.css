@@ -1,0 +1,142 @@
+p, h1, h2{margin: 0px; padding: 0px;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{font-family: 'Hanken Grotesk', sans-serif;}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+.first, .second{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px; width: 300px;
+    border-radius: 25px;
+}
+.first{
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%; 
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    color: white;
+    width: 120px; height: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+.a>#a1{font-size: 25px;}
+.a p{font-size: 14px; font-weight: lighter;}
+.para{
+    position: relative; top: -20px;
+    font-weight: 350; font-size: 17px;
+}
+.first>h2{
+    margin-top: 30px; margin-bottom: 0px;
+    font-weight: 500;
+}
+.graph{
+    padding: 20px 20px 0px 20px;
+    font-weight: 200;
+}
+.second{
+    background-color: hsl(0, 0%, 100%);
+    margin: -15px; z-index: -1;
+    box-shadow: 5px 10px 10px 2px rgba(0,0,0,.2);
+}
+button{
+    width: 250px;
+    border: 0px; padding: 18px;
+    border-radius: 30px;
+    color: white; 
+    font-weight: 700; font-family: inherit; font-size: 17px;
+    margin-top: 5px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.second>p{
+    margin: 0px 0px 20px -140px;
+    font-weight: bold;
+}
+.second>div{
+    border-radius: 10px;
+    width: 230px;
+    border: 0px; padding: 8px;
+}
+.hash{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+span{
+    color: black;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+#b{color: hsl(0, 100%, 67%);}
+#c{color: hsl(39, 100%, 56%);}
+#d{color: hsl(166, 100%, 37%);}
+#e{color: hsl(234, 85%, 45%);}
+
+.orios1{margin-left: 65px;}
+.orios2{margin-left: 66px;}
+.orios3{margin-left: 79px;}
+.orios4{margin-left: 80px;}
+
+.Visual{ background-color: rgb(200, 199, 255, .5);}
+.Verbal{background-color: rgb(235, 241, 255, .7);}
+.Reaction{background-color: rgb(255, 229, 202, .3);}
+.Memory{background-color: rgb(255, 231, 155, .3);}
+
+.prime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media (max-width: 500px) {
+    body{
+        margin: 130px 30px 0px 30px;
+        background-color: black;
+    }
+    .prime{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .first{
+        height: 500px;
+        margin-top: -100px;
+        margin-bottom: 30px;
+        border-radius: 0px 0px 25px 25px;
+        width: 370px;
+    }
+    .second{
+        height: 500px;
+        box-shadow: none;
+        margin-top: -70px;
+        border-radius: 0px;
+        width: 370px;
+    }
+    .para{
+        position: relative; top: 20px;
+        margin-bottom: 40px;
+    }
+    .graph{
+        margin-bottom: 30px;
+    }
+    .second>p{
+        margin-top: 60px;
+    }
+    button{
+        margin-bottom: 30px;
+    }
+}

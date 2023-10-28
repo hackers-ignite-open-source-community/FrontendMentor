@@ -1,0 +1,108 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    margin-top: 0px;
+}
+p, h1{
+    margin: 0px; padding: 0px;
+}
+.thecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -630px;
+    width: 100vw;
+    align-items: flex-end;
+}
+.thecontainer>div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 460px;
+    margin-right: 90px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    width: 200px; height: 60px;
+    border-radius: 80px;
+    border: 0px;
+    font-size: large;
+    background-color: white;
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.containedButton{
+    text-align: center;
+    margin-top: -5px;
+    color: hsl(257, 40%, 49%);
+}
+.logo{
+    margin: -440px 0px 0px 50px;
+}
+.mockups{
+    margin: 0px 0px 0px 50px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    width: 100vw;
+    justify-content: flex-end;
+    margin: -80px 0px 0px -90px;
+}
+.mobilesvg{
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .mobilesvg{
+        display: block;
+        margin-left: -8px;
+        height: 100vh;
+        width: 100vw;
+    }
+    .desktopsvg{
+        display: none;
+    }
+    .logoMockup{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: -330px 0px 0px 12%;
+    }
+    .mockups{
+        height: 200px;
+    }
+    .logoImage{
+        width: 150px;
+    }
+    .thecontainer{
+        margin-top: 210px;
+    }
+    .thecontainer>div{
+        width: fit-content;
+        text-align: center;
+        gap: 15px;
+        margin: -400px 50px 50px 40px;
+        padding-right: 15px;
+    }
+    h1{
+        font-size: 30px;
+        margin: 0px 1px 0px 1px;
+        padding-top: 30px;
+    }
+    button{
+        align-self: center;
+        box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .icons{
+        gap: 10px;
+        justify-content: center;
+        margin: 270px 0px 0px -8px;
+    } 
+  }

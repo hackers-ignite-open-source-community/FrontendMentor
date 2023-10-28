@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(235, 16%, 14%);
+    background-image: url(./images/bg-stars.svg), url(./images/pattern-hills.svg);
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 700;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+}
+.heading, .container{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5%;
+}
+.row{
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    font-size: 5rem;
+    margin: 10px;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px -5px #000000;
+    padding: 20px;
+}
+
+p{
+    padding: 10px 3% 0px 5%;
+    font-size: 1rem;
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 9%;
+}
+.icons>svg{
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
