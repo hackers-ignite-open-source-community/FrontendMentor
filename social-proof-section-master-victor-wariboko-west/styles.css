@@ -1,0 +1,151 @@
+html{
+    font-family: 'League Spartan', sans-serif;
+    margin-top: -10px;
+    padding: 0px 100px 0px 100px;
+}
+body{
+    font-size: 15px;
+    overflow: hidden;
+}
+p{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 3.5rem;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.headingText{
+    width: 40%;
+    padding-bottom: 40px;
+}
+.headingText>p{
+    color: hsl(303, 10%, 53%);
+    font-size: 20px;
+}
+.headingStars{
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 6%;
+}
+.headingStars p{
+    padding: 25px;
+    font-size: 20px;
+    
+}
+.headingStars>div{
+    background-color: hsl(300, 24%, 96%);
+    width: auto;
+    border-radius: 10px;
+}
+.headingStars1{
+    margin-left: 50px;
+}
+.headingStars2{
+    margin-left: 100px;
+}
+.customerComments{
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: fit-content;
+}
+span{
+    color: hsl(333, 80%, 67%);
+}
+.buyerImage{
+    border-radius: 50%;
+    width: 50px;
+}
+.customerBio1{
+    display: flex;
+    gap: 20px;
+}
+.customerBio2{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: large;
+}
+.customerComments>p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.commentDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.secondComment{
+    margin-top: 20px;
+}
+.thirdComment{
+    margin-top: 40px;
+}
+.reviewsMobile{
+    display: none;
+}
+.topIllustration{
+    margin-bottom: -340px;
+    margin-left: -150px;
+}
+.mobileIllustrationTop, mobileIllustrationBottom{
+    display: none;
+}
+.bottomIllustration{
+    margin-top: -610px;
+    margin-left: 190px;
+}
+
+
+@media (max-width: 500px) {
+    html{
+        padding: 10px;
+        height: 100%;
+    }
+    body{
+        overflow: visible;
+    }
+    .topIllustration, .bottomIllustration{
+        display: none;
+    }
+    .heading, .commentDiv{
+        display: block;
+    }
+    .headingText{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .headingText>p{
+        font-size: 25px;
+    }
+    .headingStars{
+        margin-top: 0%;
+    }
+    .headingStars p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .headingStars > div{
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-wrap: ; */
+    }
+    .headingStars1, .headingStars2{
+        margin-left: 0px;
+    }
+    .reviewsDesktop{
+        /* display: none; */
+    }
+  }
